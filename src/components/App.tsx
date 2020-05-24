@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import NavBar from './NavBar';
 import Hero from './Hero';
-// import Features from './Features';
+import Features from './Features';
 // import Demo from './Demo';
 // import Team from './Team';
 
@@ -15,8 +15,8 @@ class App extends Component {
       <div>
         <NavBar />
         <Hero />
-        {/* <Features />
-        <Demo />
+        <Features />
+        {/* <Demo />
         <Team /> */}
       </div>
     )
