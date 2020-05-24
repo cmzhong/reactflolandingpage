@@ -24,7 +24,7 @@ function NavBar() {
       </Nav>
       <Nav className="test">
         <Nav.Link href="https://github.com/oslabs-beta/ReactFLO"> <GoMarkGithub size={32}/></Nav.Link>
-        <Nav.Link href="linktochromehere"><AiOutlineChrome size={36} /></Nav.Link>
+        <Nav.Link href="linktochromehere"><AiOutlineChrome size={36}/></Nav.Link>
       </Nav>
     </Navbar>
     </div>

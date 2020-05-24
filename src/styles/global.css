@@ -1,0 +1,20 @@
+html {
+  background-color: lavenderblush;
+}
+#hero {
+  background-color: lavenderblush;
+}
+
+#heroImage {
+  width: 65%;
+  height: 65%;
+  max-width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: transparent;
+}
+
+#heroLine {
+  text-align: center;
+}
