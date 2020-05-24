@@ -1,6 +1,7 @@
 html {
   background-color: transparent;
 }
+
 #hero {
   background-color: transparent;
 }
@@ -13,7 +14,7 @@ html {
   margin-left: auto;
   margin-right: auto;
   background: transparent;
-  -webkit-filter: drop-shadow(2px 2px 2px #222)
+  -webkit-filter: drop-shadow(2px 2px 2px #222);
 }
 
 #heroLine {
@@ -25,6 +26,62 @@ html {
 #heroButton {
   border-radius: 5px;
 }
+
+#features{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #f7f3f0;
+  margin: 1em;
+  margin-top: 9em;
+  margin-bottom: 9em;
+}
+
+#featuresImage {
+  width: 55%;
+  height: 55%;
+  max-width: 55%;
+}
+
+#featuresList {
+  font-size: 25px;
+}
+
+#team {
+  background: #f7f3f0;
+  text-align: center;
+  margin: 1em;
+  margin-top: 5em;
+  margin-bottom: 10em;
+}
+
+.teamProfiles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 2em;
+}
+
+.teamPhoto {
+  border-radius: 50%;
+  height: 10em;
+  width: 10em;
+  z-index: 2;
+}
+
+.individualProfile {
+  flex-direction: column;
+}
+
+.gitProfile {
+  margin: 5px;
+
+}
+
+.linkedinProfile {
+  margin: 5px;
+}
+
 
 .heroWaves {
   width: 100%;

@@ -8,26 +8,24 @@ import { Link as LinkScroll } from 'react-scroll';
 
 function NavBar() {
   return (
-  <div>
-    <Navbar bg="dark" variant="dark">
+    <Navbar sticky="top" style={{background: "#272a30"}} variant="dark">
       <Navbar.Brand>
         <LinkScroll to="hero" smooth={true} >reactFLO</LinkScroll>
       </Navbar.Brand>
       <Nav className="mr-auto">
-        <Nav.Link><LinkScroll to="features" smooth={true}>Features</LinkScroll></Nav.Link>
+        <Nav.Link><LinkScroll to="features" smooth={true} style={{color: '#F6780D'}}>Features</LinkScroll></Nav.Link>
         <Nav.Link>
-        <LinkScroll to="demo" smooth={true}>Demo</LinkScroll>
+        <LinkScroll to="demo" smooth={true} style={{color: '#F6780D'}}>Demo</LinkScroll>
         </Nav.Link>
         <Nav.Link>
-        <LinkScroll to="team" smooth={true}>Connect</LinkScroll>
+        <LinkScroll to="team" smooth={true} style={{color: '#F6780D'}}>Connect</LinkScroll>
         </Nav.Link>
       </Nav>
       <Nav className="test">
-        <Nav.Link href="https://github.com/oslabs-beta/ReactFLO"> <GoMarkGithub size={32}/></Nav.Link>
-        <Nav.Link href="linktochromehere"><AiOutlineChrome size={36}/></Nav.Link>
+        <Nav.Link href="https://github.com/oslabs-beta/ReactFLO"> <GoMarkGithub style={{color: '#F6780D'}} size={32}/></Nav.Link>
+        <Nav.Link href="linktochromehere"><AiOutlineChrome style={{color: '#F6780D'}} size={36}/></Nav.Link>
       </Nav>
     </Navbar>
-    </div>
   )
 }
 
