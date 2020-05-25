@@ -1,30 +1,34 @@
 import React from "react";
 import { GoMarkGithub } from 'react-icons/go';
 import { GrLinkedin } from 'react-icons/gr';
+import Cherie from '../../images/cherie.png';
+import Jordan from '../../images/jordan.png';
+import Marcus from '../../images/Marcus.png';
+import Vaughn from '../../images/Vaughn.png';
 
 function Team() {
 
   const teamData = [{
     name: 'Cherie Zhong',
-    image: 'cherie.png',
+    image: Cherie,
     github: 'https://github.com/cmzhong',
     linkedin: 'https://www.linkedin.com/in/cheriezhong/'
   },
   {
     name: 'Jordan Deleon',
-    image: 'jordan.png',
+    image: Jordan,
     github: 'https://github.com/jdele',
     linkedin: 'https://www.linkedin.com/in/jordan-deleon/'
   },
   {
     name: 'Marcus Valverde',
-    image: 'marcus.png',
+    image: Marcus,
     github: 'https://github.com/marcusvalverde',
     linkedin: 'https://www.linkedin.com/in/marcus-valverde/'
   },
   {
     name: 'Vaughn Hartling',
-    image: 'vaughn.png',
+    image: Vaughn,
     github: 'https://github.com/VaughnHartling',
     linkedin: 'https://www.linkedin.com/in/vaughn-hartling-3083a4133/'
   }]

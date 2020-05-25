@@ -1,5 +1,6 @@
 import React from "react";
 import { AiOutlineChrome } from 'react-icons/ai';
+import ReactLogo from '../../images/reactw.png';
 
 function Hero() {
   return (
@@ -20,7 +21,7 @@ function Hero() {
       <section id="hero">
         <img id="heroImage"
           className="animate__animated animate__fadeInDown"
-          src="reactw.png"
+          src={ReactLogo}
           alt="reactflo-logo"
         />
         <div id="heroLine" className="animate__animated animate__fadeInUp">
