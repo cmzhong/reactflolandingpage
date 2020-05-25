@@ -27,7 +27,7 @@ function NavBar() {
           <LinkScroll to="features" smooth={true} style={{ color: '#F6780D' }}>Features</LinkScroll>
         </Nav.Link>
         <Nav.Link>
-          <LinkScroll to="team" smooth={true} style={{ color: '#F6780D' }}>Team</LinkScroll>
+          <LinkScroll to="team" smooth={true} style={{ color: '#F6780D', marginTop: "6px" }}>Team</LinkScroll>
         </Nav.Link>
       </Nav>
       <Nav>
