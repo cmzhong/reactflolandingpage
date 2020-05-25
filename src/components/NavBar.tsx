@@ -3,6 +3,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 import { GoMarkGithub } from 'react-icons/go';
 import { AiOutlineChrome } from 'react-icons/ai';
 import { Link as LinkScroll } from 'react-scroll';
+import ReactLogo from '../../images/reactw.png';
 
 
 
@@ -11,7 +12,14 @@ function NavBar() {
     <Navbar sticky="top" style={{ background: "#272a30" }} variant="dark">
       <Navbar.Brand>
         <LinkScroll to="hero" smooth={true}>
-          reactFLO
+          <img
+            src={ReactLogo}
+            height="auto"
+            width="85"
+            className="d-inline-block align-top"
+            alt="Reactflo Logo"
+            style={{ marginTop: "6px" }}
+          />
         </LinkScroll>
       </Navbar.Brand>
       <Nav className="mr-auto">
