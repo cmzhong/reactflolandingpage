@@ -1,4 +1,5 @@
 import React from "react";
+import Demo from "../../images/features.png"
 
 const Features = () => {
   return (
@@ -12,7 +13,7 @@ const Features = () => {
         </ul>
         <img className="animate__animated animate__fadeInRight"
           id="featuresImage"
-          src="features.png"
+          src={Demo}
           alt="features-image"
         />
       </div>
