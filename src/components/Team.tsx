@@ -3,7 +3,7 @@ import { GoMarkGithub } from 'react-icons/go';
 import { GrLinkedin } from 'react-icons/gr';
 
 function Team() {
-  
+
   const teamData = [{
     name: 'Cherie Zhong',
     image: 'cherie.png',
@@ -31,20 +31,20 @@ function Team() {
 
   const teamProfiles = teamData.map((data) => {
     return (
-    <div id="individualProfile">
-    <React.Fragment key={data.name}>
-      <img className="teamPhoto" src={data.image} alt={data.name}/>
-      <h3>{data.name}</h3>
-      <div className="profileLinks">
-      <a href={data.github}>
-      <GoMarkGithub className ="gitProfile" style={{color: 'black'}} size={42}/>
-        </a>
-      <a href={data.linkedin}>
-        <GrLinkedin className ="linkedinProfile" style={{color: 'black'}} size={42} />
-        </a>
+      <div id="individualProfile">
+        <React.Fragment key={data.name}>
+          <img className="teamPhoto" src={data.image} alt={data.name} />
+          <h3>{data.name}</h3>
+          <div className="profileLinks">
+            <a href={data.github}>
+              <GoMarkGithub className="gitProfile" style={{ color: 'FFFAFA' }} size={42} />
+            </a>
+            <a href={data.linkedin}>
+              <GrLinkedin className="linkedinProfile" style={{ color: 'FFFAFA' }} size={42} />
+            </a>
+          </div>
+        </React.Fragment>
       </div>
-    </React.Fragment>
-    </div>
     )
   })
 
@@ -53,7 +53,7 @@ function Team() {
     <section id="team">
       <h1>Team</h1>
       <div className="teamProfiles">
-        { teamProfiles }
+        {teamProfiles}
       </div>
     </section>
   )

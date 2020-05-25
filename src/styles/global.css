@@ -4,11 +4,12 @@ html {
 
 #hero {
   background-color: transparent;
+  height: 65%;
 }
 
 #heroImage {
-  width: 65%;
-  height: 65%;
+  width: 50%;
+  height: 50%;
   max-width: 50%;
   display: block;
   margin-left: auto;
@@ -19,7 +20,7 @@ html {
 
 #heroLine {
   text-align: center;
-  color: #e8e6e6;
+  color: #FFFAFA;
   -webkit-filter: drop-shadow(2px 2px 2px #222)
 }
 
@@ -27,15 +28,15 @@ html {
   border-radius: 5px;
 }
 
-#features{
+#features {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  background-color: #f7f3f0;
-  margin: 1em;
-  margin-top: 9em;
-  margin-bottom: 9em;
+  background-color: #FFFAFA;
+  margin-top: 1em;
 }
+
 
 #featuresImage {
   width: 55%;
@@ -47,12 +48,20 @@ html {
   font-size: 25px;
 }
 
+#featuresBody {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 #team {
-  background: #f7f3f0;
+  background: transparent;
   text-align: center;
-  margin: 1em;
   margin-top: 5em;
   margin-bottom: 10em;
+  color: #FFFAFA;
+  -webkit-filter: drop-shadow(1px 1px 1px #222);
 }
 
 .teamProfiles {
@@ -60,13 +69,16 @@ html {
   flex-direction: row;
   justify-content: space-around;
   margin-top: 2em;
+  
 }
 
 .teamPhoto {
   border-radius: 50%;
   height: 10em;
   width: 10em;
+  margin-bottom: 1em;
   z-index: 2;
+  box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.2);
 }
 
 .individualProfile {
