@@ -3,8 +3,8 @@ import { GoMarkGithub } from 'react-icons/go';
 import { GrLinkedin } from 'react-icons/gr';
 import Cherie from '../../images/cherie.png';
 import Jordan from '../../images/jordan.png';
-import Marcus from '../../images/Marcus.png';
-import Vaughn from '../../images/Vaughn.png';
+import Marcus from '../../images/marcus.png';
+import Vaughn from '../../images/vaughn.png';
 
 function Team() {
 
