@@ -196,3 +196,8 @@ animation: move-wave 3s;
 .waveAnimation .waveBottom {
   animation: move_wave 15s linear infinite;
 }
+
+
+@media only screen and (max-width: 812px) {
+  
+}
