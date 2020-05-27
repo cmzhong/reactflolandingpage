@@ -55,7 +55,7 @@ function Team() {
 
   return (
     <section id="team">
-      <h1>Team</h1>
+      <h1 id="teamHeader">Team</h1>
       <div className="teamProfiles">
         {teamProfiles}
       </div>

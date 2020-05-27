@@ -9,7 +9,7 @@ import ReactLogo from '../../images/reactw.png';
 
 function NavBar() {
   return (
-    <Navbar sticky="top" style={{ background: "#272a30" }} variant="dark">
+    <Navbar className="navbar" sticky="top" style={{ background: "#272a30" }} variant="dark">
       <Navbar.Brand>
         <LinkScroll to="hero" smooth={true}>
           <img

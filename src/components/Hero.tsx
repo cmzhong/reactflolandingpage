@@ -25,8 +25,8 @@ function Hero() {
           alt="reactflo-logo"
         />
         <div id="heroLine" className="animate__animated animate__fadeInUp">
-          <h2>A React State Visualization Tool</h2>
-          <p>A Chrome DevTool built for developers to visualize the flow of state throughout their application.</p>
+          <h2 id="heroH2">A React State Visualization Tool</h2>
+          <p id="heroDescription">A Chrome DevTool built for developers to visualize the flow of state throughout their application.</p>
           <button id="heroButton">
             <AiOutlineChrome size={36} /> Add To Chrome
         </button>
