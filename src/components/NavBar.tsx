@@ -18,20 +18,24 @@ function NavBar() {
             width="85"
             className="d-inline-block align-top"
             alt="Reactflo Logo"
-            style={{ marginTop: "6px" }}
+            style={{ marginTop: "5px" }}
           />
         </LinkScroll>
       </Navbar.Brand>
       <Nav className="mr-auto">
-        <Nav.Link>
-          <LinkScroll to="features" smooth={true} style={{ color: '#F6780D' }}>Features</LinkScroll>
-        </Nav.Link>
-        <Nav.Link>
-          <LinkScroll to="team" smooth={true} style={{ color: '#F6780D' }}>Team</LinkScroll>
-        </Nav.Link>
+        <span>
+          <Nav.Link>
+            <LinkScroll to="features" smooth={true} style={{ color: '#F6780D' }}>Features</LinkScroll>
+          </Nav.Link>
+        </span>
+        <span>
+          <Nav.Link>
+            <LinkScroll to="team" smooth={true} style={{ color: '#F6780D' }}>Team</LinkScroll>
+          </Nav.Link>
+        </span>
       </Nav>
       <Nav>
-        <Nav.Link href="https://github.com/oslabs-beta/ReactFLO"> <GoMarkGithub style={{ color: '#F6780D' }} size={32} /></Nav.Link>
+        <Nav.Link href="https://github.com/oslabs-beta/ReactFLO"> <GoMarkGithub style={{ color: '#F6780D', marginTop: "2px" }} size={32} /></Nav.Link>
         <Nav.Link href="linktochromehere"><AiOutlineChrome style={{ color: '#F6780D' }} size={36} /></Nav.Link>
       </Nav>
     </Navbar>
