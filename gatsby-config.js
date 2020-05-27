@@ -5,6 +5,14 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: "reactFLO",
+    description:
+      "A react state visualization tool.",
+    url: "https://www.reactflo.com", // No trailing slash allowed!
+    image: "/images/logo.png", // Path to your image you placed in the 'static' folder
+    twitterUsername: "@reactflo",
+  },
   plugins: [
     {
       resolve: `gatsby-plugin-manifest`,
